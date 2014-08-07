@@ -78,6 +78,9 @@ int Mutex::unlock()
 	return 0;
 }
 
+/*
+ *获取锁
+ * */
 pthread_mutex_t* Mutex::getMutex()
 {
 	return &mutex;
